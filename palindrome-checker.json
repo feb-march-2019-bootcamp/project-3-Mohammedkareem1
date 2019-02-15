@@ -1,0 +1,1 @@
+{"index.js":"function palindrome(str) {\n    // Good luck!\n\n\n\nreturn str.replace(/[\\W_]/g, '').toLowerCase() ===\nstr.replace(/[\\W_]/g, '').toLowerCase().split('').reverse().join('');\n\n\n  }\n  \n  \n \n  palindrome(\"e_y e \");"}
